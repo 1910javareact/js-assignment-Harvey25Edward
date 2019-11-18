@@ -1,6 +1,9 @@
 /* 3. Reverse String
 Define function: reverseStr(someStr)
 Reverse and return the String. */
-function reverseStr(someStr) {
-  
+ export function reverseStr(someStr) {
+  strarr = someStr.split("")
+  reversedarr = strarr.reverse()
+joinedarr = reversedarr.join("")
+return joinedarr
 }
